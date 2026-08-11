@@ -1,0 +1,9 @@
+cast_server
+cast_server.log
+wlr_click
+wlr_stream
+wlr_jpeg
+wlr-virtual-pointer-v1*
+wlr-screencopy-v1-client-protocol.h
+wlr-screencopy-v1-protocol.c
+wlr-screencopy-v1.xml

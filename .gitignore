@@ -1,0 +1,41 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+hypr-cast/cast_server.log
+
+# Hypr-Cast compiled binaries and Wayland scanner generated files
+hypr-cast/cast_server
+hypr-cast/wlr_click
+hypr-cast/wlr_stream
+hypr-cast/wlr_jpeg
+hypr-cast/wlr-virtual-pointer-v1*
+hypr-cast/wlr-screencopy-v1-client-protocol.h
+hypr-cast/wlr-screencopy-v1-protocol.c
+hypr-cast/wlr-screencopy-v1.xml
+
+# Android build outputs and caches
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+android/*.apk
+android/*.aab
+
+# Keystores & Sensitive files
+*.jks
+*.keystore
+*.p12
+*.key
