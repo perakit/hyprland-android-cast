@@ -1,7 +1,7 @@
 # Hypr-Cast Architecture & Technical Memory
 
 ## Overview
-High-performance, low-latency Wayland virtual display cast server for Hyprland streaming to Android tablets (`/home/perakit/hypr-cast`).
+High-performance, low-latency Wayland virtual display cast server for Hyprland streaming to Android tablets (`hypr-cast`).
 
 ---
 
@@ -79,7 +79,7 @@ High-performance, low-latency Wayland virtual display cast server for Hyprland s
 ---
 
 ## File Index
-- `/home/perakit/hypr-cast/main.go`: HTTP server (`:8089`), stream channel broadcaster, dynamic resolution resizer, and `hyprctl sendshortcut` dispatcher.
-- `/home/perakit/hypr-cast/wlr_jpeg.c`: Native C Wayland continuous screencopy & 4:4:4 sRGB `libjpeg-turbo` encoder.
-- `/home/perakit/hypr-cast/wlr_click.c`: Native C Wayland virtual pointer helper targeting `HEADLESS-3`.
-- `/home/perakit/cast.sh`: Master build and startup launcher script.
+- `hypr-cast/main.go`: HTTP server (`:8089`), stream channel broadcaster, dynamic resolution resizer, and `hyprctl sendshortcut` dispatcher.
+- `hypr-cast/wlr_jpeg.c`: Native C Wayland continuous screencopy & 4:4:4 sRGB `libjpeg-turbo` encoder.
+- `hypr-cast/wlr_click.c`: Native C Wayland virtual pointer helper targeting `HEADLESS-3`.
+- `cast.sh`: Master build and startup launcher script.
