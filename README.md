@@ -108,4 +108,4 @@ Or open the `android/` directory in **Android Studio** and build the release/deb
 
 ## 📜 License
 
-Distributed under the project's standard open-source conventions.
+Distributed under the [Apache License 2.0](LICENSE). See `LICENSE` for more information.
